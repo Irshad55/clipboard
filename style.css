@@ -1,0 +1,368 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg-header-mobile.png);
+    background-repeat: no-repeat;
+
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.section1 {
+    width: 100%;
+}
+
+.logo {
+   margin-left: 33%;
+   margin-top: 30%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 34px;
+    
+}
+
+.info {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+    
+}
+
+.phone1 {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.button1 {
+    width: 80%;
+    padding: 12px;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.phone2 {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.button2 {
+    width: 80%;
+    padding: 12px;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.section2 {
+    margin-top: 30%;
+}
+
+.track {
+    text-align: center;
+    font-size: 34px;
+}
+
+.info1 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+    
+}
+
+.computer {
+    width: 100%;
+    padding: 60px;
+}
+
+.quick {
+    text-align: center;
+    font-size: 30px;
+}
+
+.info2 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.cloud {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info3 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.complete {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info4 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.section3 {
+    margin-top: 30%;
+}
+
+.access {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info5 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.device {
+    width: 100%;
+    padding: 40px;
+}
+
+.charge {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info6 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.icon {
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.create {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info7 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.text {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.plain {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info8 {
+    margin-top: 5%;
+    text-align: center;
+    color: hsl(202, 13%, 72%);
+}
+
+.preview {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sneak {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section4 {
+    margin-top: 30%;
+}
+
+.photo {
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.section5 {
+    margin-top: 30%;
+}
+
+.ios {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section6 {
+    margin-top: 30%;
+    background-color: rgb(233, 232, 232);
+}
+
+.sec {
+      margin-left: 25%;
+      padding: 25px;
+}
+
+.adver {
+    text-align: center;  
+}
+
+.adver, .p {
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.fb {
+    margin-top: 10%;
+    margin-left: 30%;
+    
+    
+}
+
+.fb-adj {
+    margin-left: 7%;
+}
+
+@media screen and (max-width: 375px) {
+    .lap-section1, .lap-logo, .lap-header, .lap-info, .lap-phone1, .lap-button1, .lap-button2, .part1, .part2, .part3, .lap-section2, .lap-info1, .lap-cluodd, .lap-complete {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lap-section1, .lap-logo, .lap-header, .lap-info, .lap-phone1, .lap-button1, .lap-button2, .part1, .part2, .part3, .lap-section2, .lap-info1, .lap-cluodd, .lap-complete {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) {
+    .section1, .header, .info, .phone1, .button1, .phone2, .button2, .section2, .track, .info1, .computer, .quick, .info2, .cloud, .info3, .complete, .info4, .section3, .access, .info5, .device, .charge, .info6, .icon, .create, .info7, .text, .plain, .info8, .preview, .sneak, .section4, .photo, .section5, .ios, .section6, .sec, .sec1, .adver, .fb, .fb-adj, .p {
+        display: none;
+    }
+}
+
+body {
+    background-size: 50%;
+    background-repeat: repeat-x;
+}
+
+.lap-section1 {
+    width: 100%;
+}
+
+.lap-logo {
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.lap-header {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 48px;
+}
+
+.lap-info {
+    text-align: center;
+    margin-top: 2%;
+    color: hsl(202, 13%, 72%);
+    font-size: 20px;
+}
+
+.lap-phone1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+
+.lap-button1 {
+    margin-left: 33%;
+    width: 250px;
+    padding: 15px;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.lap-button2 {
+    margin-right: 33%;
+    width: 250px;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.part1 {
+    margin-top: 20%;
+}
+.lap-header {
+    text-align: center;
+}
+
+.lap-section2 {
+    margin-top: 5%;
+}
+
+.part2 {
+    width: 50%;
+    float: left;
+}
+
+.part3 {
+    width: 50%;
+    float: right;
+}
+
+.lap-quick {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.lap-cloud, .lap-complete {
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+.lap-info1 {
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+    color: hsl(202, 13%, 72%);;
+}
+
+.lap-section3 {
+    margin-top: 40%;
+}
